@@ -48,8 +48,8 @@ const FormSection = () => {
             </div>
           </div>
           <div>
-            <div className='h-[345px] w-4 rounded-full' style={{ background: "var(--secondary, rgba(220, 220, 220, 1))" }} >
-              <div className='h-[100px] w-4 rounded-full' style={{ background: "var(--secondary,rgba(136, 138, 151, 1))" }}></div>
+            <div className='h-[345px] w-3 rounded-full' style={{ background: "var(--secondary, rgba(220, 220, 220, 1))" }} >
+              <div className='h-[100px] w-3 rounded-full' style={{ background: "var(--secondary,rgba(136, 138, 151, 1))" }}></div>
             </div>
           </div>
         </div>

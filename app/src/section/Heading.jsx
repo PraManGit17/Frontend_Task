@@ -41,7 +41,7 @@ const Heading = () => {
         </div>
       </div>
 
-      <div className='w-[200px] h-[40px] flex items-start justify-center gap-4'>
+      <div className='w-[250px] h-[40px] flex items-start justify-center gap-8'>
         <div className='font-poppins font-medium text-[12px] leading-[28px] tracking-[0] text-[#686868]'>Save</div>
         <div className='rounded-sm' style={{ background: "linear-gradient(100.93deg, #FFE74E -29.59%, #FFA81C 98.39%)" }}       >
           <div className='px-3 font-poppins font-medium text-[11px] leading-[28px] tracking-[0] text-white'>Make Campaign</div>

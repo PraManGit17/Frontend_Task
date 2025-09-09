@@ -17,7 +17,7 @@ const ChatSection = () => {
         </div>
       </div>
 
-      <div className='w-[85%] mt-[40px] max-h-full flex flex-col gap-8'>
+      <div className='w-[85%] mt-[45px] max-h-full flex flex-col gap-8'>
         <div className='w-full'>
           <div className='font-poppins font-normal text-[16px]'>Hello Im Oslo. Tell me whats on your mind</div>
           <div className='flex items-center gap-2 mt-[12px]'>
@@ -42,8 +42,8 @@ const ChatSection = () => {
         </div>
       </div>
 
-      <div className='w-[80%] mt-[105px] flex items-center justify-between rounded-xl px-4 py-3 border-gray-200 border-2
-      shadow-gray-200 shadow-md'>
+      <div className='w-[80%] mt-[135px] bg-gray-50 flex items-center justify-between rounded-xl px-4 py-3 border-gray-200 border-2
+      shadow-gray-200 shadow-lg'>
         <img src={search} className='h-4 w-4' />
         <img src={mic} className='h-4 w-3' />
       </div>
