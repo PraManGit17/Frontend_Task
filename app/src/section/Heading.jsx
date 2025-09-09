@@ -1,6 +1,6 @@
 import React from 'react'
-import caret from '../../public/caret.jpg';
-import edit from '../../public/edit.jpg';
+import caret from '/caret.jpg';
+import edit from '/edit.jpg';
 
 const Heading = () => {
   return (

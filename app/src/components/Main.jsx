@@ -1,6 +1,7 @@
 import React from 'react'
 import Heading from '../section/Heading'
 import ChatSection from '../section/ChatSection'
+import FormSection from '../section/FormSection'
 
 const Main = () => {
   return (
@@ -8,8 +9,9 @@ const Main = () => {
       <div className='w-full h-full border-2 border-gray-200 rounded-2xl'>
         <Heading />
 
-        <div className='w-full h-[588px] '>
+        <div className='w-full h-[588px] flex items-center '>
           <ChatSection />
+          <FormSection />
         </div>
       </div>
       
