@@ -1,22 +1,22 @@
 import React from 'react'
-import star from '../../public/star.jpg';
-import photo from '../../public/photo.jpg';
-import house from '../../public/house.jpg';
-import rocket from '../../public/rocket.jpg';
-import note from '../../public/note.jpg';
-import user from '../../public/user.png';
-import pie from '../../public/pie.jpg';
-import mail from '../../public/mail.jpg';
-import setting from '../../public/setting.jpg';
-import exit from '../../public/exit.jpg';
+import star from '/star.jpg';
+import photo from '/photo.jpg';
+import house from '/house.jpg';
+import rocket from '/rocket.jpg';
+import note from '/note.jpg';
+import user from '/user.png';
+import pie from '/pie.jpg';
+import mail from '/mail.jpg';
+import setting from '/setting.jpg';
+import exit from '/exit.jpg';
 
 const Sidebar = () => {
   return (
-    <div className='bg-white w-[130px] h-screen bg-screen shadow-md shadow-gray-400 flex flex-col items-center'>
+    <div className='bg-white w-[125px] h-screen bg-screen shadow-md shadow-gray-400 flex flex-col items-center'>
 
       <div className='w-1/2 py-9 flex flex-col items-center'>
         <img src={star} height={24} width={24} />
-        <img src={photo} className='rounded-2xl mt-[32px] h-[48px] w-[48px]' />
+        <img src={photo} className='rounded-2xl mt-[32px] h-[45px] w-[45px]' />
 
         <div className='w-full mt-[40px] flex flex-col gap-7 items-center'>
           <div className='p-4 rounded-full' style={{ background: "var(--secondary, rgba(255, 249, 240, 1))" }}>
