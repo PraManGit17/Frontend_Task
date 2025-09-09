@@ -1,9 +1,9 @@
 import React from 'react'
-import star from '../../public/star.jpg';
-import copy from '../../public/copy.png';
-import reload from '../../public/reload.jpg';
-import search from '../../public/search.jpg';
-import mic from '../../public/mic.jpg';
+import star from '/star.jpg';
+import copy from '/copy.png';
+import reload from '/reload.jpg';
+import search from '/search.jpg';
+import mic from '/mic.jpg';
 
 const ChatSection = () => {
   return (
